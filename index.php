@@ -62,11 +62,34 @@ Cependant, tout n'est pas aussi simple qu'il n'y paraît et la royauté change d
 <a href="#" class="btn btn-primary">Visiter le site</a>
 </div>
 
-<div id="whoarewe" class="jumbotron">
-	<i class="fas fa-hand-point-left fa-3x" id="back_from_whoarewe"></i>
-	<hr>
+<div id="whoarewe" class="jumbotron" align="center">
+	
+	
 	<h1>Qui sommes nous</h1>
-	<h1><?php echo strtoupper("NOUS SOMMES LALALALA"); ?></h1>
+	
+	<br>
+	<div class="card mb-3">
+  <h3 class="card-header">Lisa Wolfrum</h3>
+  <div class="card-body">
+    <h5 class="card-title">Présidente</h5>
+    
+  </div>
+  <img src="assets/img/lisa.jpg" class="img-fluid img-thumbnail" alt="" style="width: 50%">
+  <div class="card-body">
+    <p class="card-text">Lisa Wolfrum est la fondatrice et la présidente de l'association. Ayant travaillé pendant plusieurs années pour l'entreprise Danoise Dziobak Larp Studios sur des productions comme College of Wizardry et Fairweather Manor, elle a développé une grande passion pour les jeux Grandeur Nature (GN) et a pu constater que les productions hyper immersifs de style « Nordic Blockbuster » n'étaient pas beaucoup représentés en France.</p>
+
+<p class="card-text">Sa mission est donc de créer des jeux immersifs inspirés par des univers imaginaires et historiques à un public international, en France. Toujours en visant pour des décors, costumes et lieux d'exception.</p>
+
+
+<p class="card-text">Lisa a un Master en Tourisme, Patrimoine et Evènementiel, et une Licence en Langue, Litérature et Civilisation Anglaise. Ce sont ces formations qui lui donné l'idée de donner vie à l'Histoire à travers des personnages, le port de costumes, la participation dans des scénarions et des décors historiques. Même avant qu'elle ne connaisse le GN, elle voulait faire des spectateurs des acteurs.</p>
+  </div>
+  
+  
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
+
 </div>
 <script>
 
