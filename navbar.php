@@ -10,14 +10,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" id="see_accueil">Accueil <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Qui sommes nous ?</a>
+        <a class="nav-link" href="#" id="see_whoarewe">Qui sommes nous ?</a>
       </li>
      
       <li class="nav-item">
-        <a class="nav-link" href="#">Evenements</a>
+        <a class="nav-link" href="#" id="see_futur-events_navbar">Evenements</a>
       </li>
     </ul>
     
