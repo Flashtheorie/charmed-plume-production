@@ -22,3 +22,11 @@ body  {
 
   opacity: 0.9;
 }
+p {
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 18px;
+}
+#mom_logo {
+	padding-bottom: 30px;
+}

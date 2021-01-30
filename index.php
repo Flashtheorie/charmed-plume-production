@@ -31,23 +31,35 @@
 	<div class="jumbotron" align="center" id="accueil">
 		<img src="assets/img/logo_index.png" alt="" class="img-fluid" width="500px">
 		<hr>
-		<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Magnam, quia, hic tempore molestias sit, perspiciatis vero dicta, atque illo explicabo iure? Ratione molestias magni assumenda fugit eveniet quasi adipisci ullam .Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Charmed Plume Productions est une association à but non-lucratif qui vise à créer des évènements immersifs (appelés GN). 
+		<br>Nous trouvons notre inspiration dans l'histoire et des mondes imaginaires (comme Harry Potter ou le Seigneur des Anneaux).</p>
+
+
+<p>Nos mondes sont créés avec l'aide d'écrivains et designers de jeux qui ont évolué dans le milieu du GN à l'internationale depuis des années.</p>
+<button type="button" class="btn btn-primary" id="see_futur-events">Voir les futurs évènements</button>
+<hr>
 
 		
-<button type="button" class="btn btn-primary" id="see_futur-events">Voir les futurs évènements</button>
+
 	</div>
 
 
-<div id="event" class="jumbotron">
-	<i class="fas fa-hand-point-left fa-3x" id="back_from_event"></i>
-	<hr>
-	<h1>Evenements</h1>
-	<h1><?php echo strtoupper("Voici la liste des évènements blablabla démmerdez vous"); ?></h1>
+<div id="event" class="jumbotron" align="center">
+	
+	
+	<img src="assets/img/logo_MOM.png" alt="" width="350px" id="mom_logo">
+<h3><strong>23 - 26 Septembre 2021</strong></h3>
+<br><hr>
+<p>Nous sommes en l'an de grâce 1520, deux des rois les plus connus de la Renaissance se rencontrent pour la toute première fois. Henry VIII d'Angleterre ey François 1er de France vous souhaitent la bienvenue, au Camp du Drap d'Or !</p>
+
+<p>Le Camp du Drap d'Or est l'évènement politique le plus célébré et luxueux de l'histoire Européenne. Pour cette occassion exceptionnelle, les deux rois ont fait venir leurs cour royale, afin de renouveller leur amitié et la paix entre la France et l'Angleterre.
+Cependant, tout n'est pas aussi simple qu'il n'y paraît et la royauté change d'alliances sur un coupe de tête...</p>
+
+<p>Venez découvrir l'Europe à la Renaissance, en incarnant un personnage comme Anne Boleyn, Claude de France ou Leonardo De Vinci.</p>
+
+<p>Les personnes qui ont participé à la création de A Meeting of Monarchs sont : John Shockley (designer et écrivain), Nandor Laklia, Zsofia Diana Szalay, Jim « Lucky » Walsemann, Balint Turi, et Chris Hartford.</p>
+<hr>
+<a href="#" class="btn btn-primary">Visiter le site</a>
 </div>
 
 <div id="whoarewe" class="jumbotron">
@@ -72,11 +84,7 @@ $("#see_futur-events").click(function(){
 	
 });
 
-$("#back_from_event").click(function(){
-	$("#event").slideUp("slow", function(){
-		$("#accueil").slideDown();
-	})
-})
+
 
 
 $("#see_futur-events_navbar").click(function(){
