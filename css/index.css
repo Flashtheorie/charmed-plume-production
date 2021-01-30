@@ -1,0 +1,24 @@
+body  {
+
+  background-color: #cccccc;
+}
+.background_img
+{
+	position: fixed;
+	top: -30px;
+	z-index: -5;
+}
+
+
+.leger {
+
+  opacity: 0.2;
+}
+.moyen {
+
+  opacity: 0.7;
+}
+.lourd {
+
+  opacity: 0.9;
+}
