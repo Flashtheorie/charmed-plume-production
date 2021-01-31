@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	
 	<link rel="icon" type="image/png" href="assets/img/feather.png" />
@@ -78,7 +80,7 @@
   <div class="card-header">L'académie de magie</div>
   <div class="card-body">
     <h4 class="card-title">Dates inconnues</h4>
-    <p class="card-text"><img src="assets/img/academiedemagie.jpg" alt="" width="250px"></p>
+    <p class="card-text"><img src="assets/img/academiedemagie.png" alt="" width="250px"></p>
   </div>
 </div></div>
 	</div>
@@ -133,7 +135,7 @@ Cependant, tout n'est pas aussi simple qu'il n'y paraît et la royauté change d
 		<a  id="backfromacademiedemagie">
 		<i class="fas fa-arrow-up fa-3x" style="cursor: pointer;"></i></a>
 		<br>
-	<img src="assets/img/academiedemagie.jpg" alt="" width="350px" id="mom_logo">
+	<img src="assets/img/academiedemagie.png" alt="" width="350px" id="mom_logo">
 	
 <h3><strong>Dates inconnues</strong></h3>
 <br><hr>
@@ -143,7 +145,7 @@ Cependant, tout n'est pas aussi simple qu'il n'y paraît et la royauté change d
 
 <p>Les joueurs peuvent incarner des étudiants ou des professeurs.</p>
 <hr>
-<a href="https://www.meetingofmonarchs.com" class="btn btn-primary">Visiter le site</a>
+<a href="https://www.meetingofmonarchs.com" class="btn btn-primary disabled"><strike>Visiter le site <br><span class="badge badge-danger">Prochainement</span></strike></a>
 
 
 </div> <!-- Fin mom1 -->
